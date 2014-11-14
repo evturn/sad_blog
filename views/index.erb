@@ -1,7 +1,4 @@
 <div class="container">
-	<center>
-<img src="http://31.media.tumblr.com/73ea69fb97feb13a85f1c122e0245092/tumblr_n7dvkuonHS1qcc8dao1_400.gif" >
-</center>
 	<ul>
 		<% @entries.each do |entry| %>
 			<li>
@@ -16,7 +13,7 @@
 						<li>
 							<%= entry.body %>
 							<br>
-							<h4>Written by: <%= entry.user.username %></h4>
+							<h4>Author: <%= entry.user.username %></h4>
 						</li>
 					</div>
 				</ul>	

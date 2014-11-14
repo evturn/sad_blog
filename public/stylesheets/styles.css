@@ -1,5 +1,5 @@
 body {
-	background-image: url(http://inspiringplay.com/wp-content/gallery/kids-inclusive-play-drawings/inspiring-play-pascal-playground-drawing_0.jpg);
+	background-image: url(http://i.imgur.com/xof4rIn.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: white;
@@ -17,11 +17,12 @@ div form {
 
 
 .header {
-  font-family: 'Monofett', cursive;
-  font-size: 130px;
-  color: black;
-  -webkit-text-stroke-width: 0px;
-  -webkit-text-stroke-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  font-size: 150px;
+  color: white;
+ 
 
 }
 
@@ -88,7 +89,8 @@ input {
 
 
 h1 {
-	font-family: calibri;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 	font-size: 100px;
   color: white;
   -webkit-text-stroke-width: 2px;
@@ -99,7 +101,7 @@ h1 {
 }
 
 h2 {
-  font-family: calibri;
+  font-family: 'Roboto', sans-serif;
   font-size: 70px;
   color: white;
   -webkit-text-stroke-width: 2px;
@@ -108,8 +110,8 @@ h2 {
 }
 
 h3 {
-  font-family: calibri;
-  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
   color: white;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
@@ -125,8 +127,8 @@ h4 {
 
 a {
   color: white;
-  font-family: impact;
-  -webkit-text-stroke-width: 3px;
+  font-family: 'Roboto', sans-serif;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   text-decoration: none;
 }
@@ -138,7 +140,7 @@ ul {
 }
 
 li {
-  font-family: 'times new roman';
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: black;
   -webkit-text-stroke-width: 0px;

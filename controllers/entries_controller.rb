@@ -6,30 +6,6 @@ class EntriesController < ApplicationController
     erb :'entries/new'
   end
 
-  get '/toast' do
-
-    erb :'entries/toast'
-  end
-
-  get '/printer' do
-
-    erb :'entries/printer'
-  end
-
-  get '/noodle' do
-    erb :'entries/noodle'
-  end
-
-  get '/blob' do
-    
-    erb :'entries/blob'
-  end
-
-  get '/dinosaur' do
-
-    erb :'entries/dinosaur'
-  end
-
   get '/:id' do
     authenticate!
     @entry = Entry.find(params[:id])

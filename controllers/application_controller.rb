@@ -15,7 +15,7 @@ class ApplicationController < Sinatra::Base
 
   get '/' do
     
-    @entries = Entry.all
+    @entries = Entry.order(created_at: :desc).limit(100)
     erb :index
   end
 

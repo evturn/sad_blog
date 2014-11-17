@@ -27,6 +27,11 @@ class EntriesController < ApplicationController
     redirect "/"
   end
 
+  post '/comments' do
+
+
+  end
+
   delete '/' do
     authenticate!
     Entry.find(params[:entry_id]).destroy

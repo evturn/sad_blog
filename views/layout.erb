@@ -9,13 +9,12 @@
 </head>
 <body>
 	<center>
-		<a href="/"><h1 class="header">rés</h1></a>
-		<% if session[:current_user] %>
-    	<%= erb :'_nav_user' %>
-	  <% else %>
-			<%= erb :'_nav_non_user' %>
-	  <% end %>
-		</center>
+			<% if session[:current_user] %>
+	    	<%= erb :'_nav_user' %>
+		  <% else %>
+				<%= erb :'_nav_non_user' %>
+		  <% end %>
+	</center>
 		<%= yield %>
 </body>
 </html>

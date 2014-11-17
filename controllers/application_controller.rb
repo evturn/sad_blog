@@ -13,11 +13,8 @@ class ApplicationController < Sinatra::Base
 
   enable :sessions, :method_override
 
-  get '/' do
-    
+  get '/' do  
     @entries = Entry.order(created_at: :desc).limit(100)
     erb :index
   end
-
-
 end

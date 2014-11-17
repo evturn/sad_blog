@@ -27,7 +27,9 @@ class EntriesController < ApplicationController
     redirect "/"
   end
 
-  post '/comments' do
+  get '/comments' do
+    content_type :json
+    comment = params[:comment]
 
 
   end

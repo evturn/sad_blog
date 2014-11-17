@@ -15,6 +15,11 @@
 							<br>
 							<h4>Author: <%= entry.user.username %></h4>
 							<h4>Tags: <%= entry.tags.join(" | ") %></h4>
+			<% if session[:current_user] %>
+	    	<%= erb :'_comment' %>
+		 	<% else %>
+				<h4><a href="/sessions/new">LOG IN TO COMMENT</a></h4>
+		  <% end %>
 						</li>
 					</div>
 				</ul>	
